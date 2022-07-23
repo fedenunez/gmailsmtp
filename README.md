@@ -1,7 +1,8 @@
 
 # Description
 
-A docker image with a configured postfix daemon that will relay any locally received email from $USER to gmail SMTP server using $USER:$PASSWORD gmail account.
+A docker image that will open a SMTP server on port 25 (using postfix) that will relay the emails of a gmail account through the gmail SMTP server using a secure connection. The account is defined by the environmental variables ```$USER``` and ```$PASSWORD```.
+
 
 # Usage
 
