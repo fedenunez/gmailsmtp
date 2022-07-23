@@ -6,7 +6,7 @@ A docker image with a configured postfix daemon that will relay any locally rece
 # Usage
 
 ```
-docker run -t -i -e USER=user@your-lovely-domain.com -e PASSWORD=YourLovelyPass fedenunez/gmailstmp
+docker run -t -i -e USER=user@your-lovely-domain.com -e PASSWORD=YourLovelyPass fedenunez/gmailsmtp
 ```
 
 # docker-compose service definition
@@ -23,5 +23,5 @@ services:
 # Build
 
 ```
-docker build -t fedenunez/gmailstmp .
+docker build -t fedenunez/gmailsmtp .
 ```
