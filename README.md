@@ -1,7 +1,9 @@
 
 # Description
 
-A docker image that will open a SMTP server on port 25 (using postfix) that will relay the emails of a gmail account through the gmail SMTP server using a secure connection. The account is defined by the environmental variables ```$USER``` and ```$PASSWORD```.
+A docker image with an SMTP server running on port 25 (postfix) that relays all incoming emails through a gmail email account using the gmail SMTP server. 
+
+The account is defined by the ``$USER`` and ``$PASSWORD`` environment variables.
 
 
 # Usage
